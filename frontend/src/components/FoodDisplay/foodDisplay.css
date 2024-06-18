@@ -1,0 +1,47 @@
+.food-display{
+    margin-top: 30px;
+}
+
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+.header-container {
+    display: flex;
+  justify-content: space-between;
+}
+
+.search-bar-product {
+    background-color: #f5f5f5; /* Light gray background */ /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+}
+
+.search-bar-product input{
+    border: none;
+    background-color: #f5f5f5;
+    margin-left: 10px;
+}
+
+.search-bar-product img{
+    width: 40px;
+    height: 40px;
+}
+
+.search-bar-producttxt{
+    margin-left: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    outline: none;
+}

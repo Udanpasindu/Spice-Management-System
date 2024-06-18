@@ -1,0 +1,118 @@
+/* Profile.css */
+.container-cusprofile{
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+
+.cusprofile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+ 
+ 
+
+
+}
+.tddata{
+ color: rgb(142, 142, 142);
+}
+
+.cusdetails {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid tomato;
+  padding: 30px;
+  border-radius: 20px ;
+  
+
+}
+
+.abc {
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+
+}
+
+.custitle123 {
+  font-size: 30px;
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 20px 0px 0 0 ;
+  color: white;
+  font-size: 20px;
+ 
+}
+
+.custable {
+  border-spacing: 30px;
+  padding: 30px;
+}
+
+.input-cus {
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+  width: 200px;
+}
+
+.rst-btn {
+  float: right;
+  margin-right: 60px;
+  background-color: tomato;
+  border-radius: 0;
+  color: white;
+  border: 0;
+  font-size: 15px;
+}
+
+.action-but {
+  background-color: tomato;
+  border-radius: 0;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.passwordLayout {
+  margin-left: 100px;
+
+  
+
+
+}
+
+.input-cus-pass {
+  padding: 10px;
+  font-size: 15px;
+  width: 400px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+}
+
+.action-but-pass {
+  background-color: tomato;
+  border-radius: 0;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  margin-right: 10px;
+  float: right;
+  width: 120px;
+
+}
+
+.but-arr {
+  float: right;
+  margin-right: 250px;
+
+
+}

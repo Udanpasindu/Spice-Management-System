@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.promotion-add{
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  margin : 50px;
+  padding: 50px;
+}
+
+.promotion-add h1{
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #f6e9b4, #ff8800);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.promotion-img-upload img{
+  width: 120px;
+}
+
+.add-promotion-name, .add-product-name, .add-promotion-description{
+  width: max(40%,280px);
+}
+
+.add-product-name input, .add-promotion-name input, .add-product-terms textarea, .add-promotion-description textarea{
+  padding: 10px;
+}
+
+.add-categoryp{
+  display: flex;
+  gap: 30px;
+}
+
+.add-categoryp select, .add-categoryp input{
+  max-width: 120px;
+  padding: 10px;
+}
+
+.item-suggestions_promo{
+  color: tomato;
+}
+
+.promotion-img-upload img{
+  width: 120px;
+}
+
+.promotion-request-head-line{
+  margin-bottom: 20px;
+}
+
+.add-btnp {
+  margin-top: 30px;
+   text-decoration: none;
+   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+   border: none;
+    color: white;
+    background-color: tomato;
+    width: max(10vw, 200px);
+    padding:10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.promoaddbutton1 {
+  margin-top: 30px;
+   text-decoration: none;
+   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+   border: none;
+    color: white;
+    background-color: tomato;
+    width: max(10vw, 200px);
+    padding:10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}

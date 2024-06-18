@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.enquiry {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    gap: 50px;
+    margin-top: 60px;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.contact-details {
+    background-color: tomato; /* Blue background color */
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    justify-content: center;
+    
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.enquiry-left {
+    width: 100%;
+    max-width: max(30%, 500px);
+    margin: auto; /* Center the form */
+}
+
+.enquiry-left .titlex {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.enquiry-left input,
+.enquiry-left textarea,
+.enquiry-left select {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline-color: tomato;
+    font-family: 'Outfit', sans-serif;
+}
+
+.enquiry-left .multifields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.enquiry-but {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+}

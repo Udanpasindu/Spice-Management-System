@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.ppayment-request-table{
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  margin : 50px;
+  padding: 50px;
+}
+
+.ppayment-request-table h1 {
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #f6e9b4, #07692b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.ppayment-request-head-line {
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Align items horizontally */
+}
+
+.pbattaabddbutton{
+  margin-top: 30px;
+   text-decoration: none;
+   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+   border: none;
+    color: white;
+    background-color: tomato;
+    width: max(10vw, 200px);
+    padding: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.psearch-barbbbb {
+  background-color: #f5f5f5; /* Light gray background */ /* Gray border */
+  border-radius: 5px; /* Rounded corners */
+  display: flex; /* Allow for inline styling of button and input */
+  align-items: center; /* Vertically centers input within search bar */
+  padding: 5px 10px; /* Padding around input */
+  width: 50%; /* Stretch search bar to full width */
+  margin-left: 20px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.psearch-barbbbb input[type='text'] {
+  margin-bottom: 30px;
+  border: none; /* Remove default input border */
+  outline: none; /* Remove default focus outline */
+  font-size: 16px; /* Set input font size */
+  padding: 5px; /* Add padding to input */
+  width: 100%; /* Stretch input to fill search bar width */
+}
+
+.psearch-btnbbbb {
+  background-color: rgb(155, 150, 149); /* Orange background color */
+  color: white; /* White text color */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Set cursor to pointer on hover */
+  padding: 5px 10px; /* Add padding to button */
+}
+
+.prpt-btn{
+  margin-top: 30px;
+  text-decoration: none;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border: none;
+   color: rgb(0, 0, 0);
+   background-color: thistle;
+   width: max(8vw, 100px);
+   padding:10px 0px;
+   border-radius: 4px;
+   cursor: pointer;
+
+}
+
+/*******************************************/
+
+
+
+
+
+
+
+.psearch-btnbbbb:hover {
+  background-color: #d95b43; /* Darker orange on hover */
+}
+
+
+/**********************************************/
+
+.pbattaabddbutton:hover {
+  background-color: #d95b43; /* Darker orange on hover */
+}
+.prpt-btn:hover {
+  background-color: rgb(152, 136, 152); /* Darker orange on hover */
+}
+
+
+
+.ppayment-request-table table{
+  width: 100%;
+  margin-top: 30px; 
+  border-collapse: collapse;
+
+}
+
+.paction-buttons button{
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: bisque;
+}
+.paction-buttons{
+  width: 120px;
+  padding: 5px;
+}
+
+.ppayment-request-table th,
+.ppayment-request-table td {
+  padding: 0px;
+  text-align: center; /* Center align text in table cells */
+}
+
+td{
+  padding-left: 5px;
+}
+
+.ppayment-request-table .des{
+  padding: 5px;
+  text-align: left;
+  max-width: 150px;
+
+}
+
+.iddd{
+  font-size: px;
+ 
+}
+
+.psearch-barbbbb{
+  margin-left: 00px;
+}
+
+.pdelete-button{
+  margin: 0 10px;
+}
+
+
+.pdelete-button:hover{
+  background-color: rgb(186, 168, 146);
+  color: black;
+}
+.pupdate-button:hover{
+  background-color: rgb(186, 168, 146);
+  color: black;
+
+}
+
+.paction-buttons {
+  padding: 10px;
+}
+
+.pbutton-container {
+  display: flex; /* Display buttons in a row */
+  align-items: center;
+  padding: 5px; /* Align buttons vertically */
+}
+
+.pupdate-button,
+.pdelete-button {
+  margin-right: 5px; /* Add spacing between buttons */
+}
+
+@media print {
+  .print1{
+    margin: 30px;
+  }
+  }

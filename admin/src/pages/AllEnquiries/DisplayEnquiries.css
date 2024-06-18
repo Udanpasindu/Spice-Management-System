@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.enquiries-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    
+}
+
+.enquiries-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Outfit', sans-serif;
+    background-color: tomato;
+    /* Blue background color */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    gap:200px;
+    
+
+}
+
+.searchEn{
+   
+    outline: none;
+    border-radius: 20px;
+    border: 0;
+    padding: 0px 20px;
+    float: right;
+}
+
+.enquiries-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.enquiries-table th, .enquiries-table td {
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Example border color */
+    font-family: 'Outfit', sans-serif;
+    
+
+}
+
+.enquiry-details-link {
+    color: tomato; /* Example link color */
+    text-decoration: none;
+}
+
+.enquiry-details-link:hover {
+    text-decoration: underline;
+}

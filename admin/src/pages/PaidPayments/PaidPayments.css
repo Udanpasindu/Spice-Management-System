@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+ .ptot-btn{
+    background-color: rgb(218, 113, 95); 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  padding: 5px 10px; 
+  }
+
+  .ptot-btn:hover {
+    background-color: tomato; /* Darker orange on hover */
+  }
+
+  .pbox .ppayment-r-table table{
+    width: 100%;
+    margin-top: 30px; 
+    border-collapse: collapse;
+  
+  }
+  
+  .ppayment-r-table th,
+.ppayment-r-table td {
+  padding: 0px;
+  text-align: center; /* Center align text in table cells */
+}
+  
+  .ppopup{
+  background-color: #eaeaea; 
+  border-radius: 5px; 
+  display: flex; 
+  align-items: center; 
+  padding: 5px ; 
+  width: 40%; 
+  height: 40px;
+  margin-top: 10px;
+
+  }
+
+  .pppi{
+    text-align: right;
+    font-size: 18px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 100px;
+  }
+
+  .pppi input{
+    margin: 0px;
+  } 
+
+
+  .pbox{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 13px 13px 10px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin : 50px;
+    padding: 50px;
+  }/*ok*/
+ 
+  .phead-line {
+    margin-left: -100px;
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Align items horizontally */
+  }
+
+  .pbox h1 {
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #8cd2e5, #051033);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .pprpt-btn{
+    margin-top: 30px;
+    text-decoration: none;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border: none;
+     color: rgb(0, 0, 0);
+     background-color: thistle;
+     width: max(8vw, 100px);
+     padding:10px 0px;
+     border-radius: 4px;
+     cursor: pointer;
+  }
+  
+  /*******************************************/
+  
+  
+  .psearch-barpb {
+    background-color: #f5f5f5; /* Light gray background */ /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Allow for inline styling of button and input */
+    align-items: center; /* Vertically centers input within search bar */
+    padding: 5px 10px; /* Padding around input */
+    width: 50%; /* Stretch search bar to full width */
+    margin-left: 20px;
+    height: 40px;
+    margin-top: 30px;
+  }
+  
+  .psearch-barpb input[type='text'] {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border: none; /* Remove default input border */
+    outline: none; /* Remove default focus outline */
+    font-size: 16px; /* Set input font size */
+    padding: 5px; /* Add padding to input */
+    width: 100%; /* Stretch input to fill search bar width */
+  }
+  
+  .psearch-btnpb {
+    background-color: tomato; /* Orange background color */
+    color: white; /* White text color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    padding: 5px 10px; /* Add padding to button */
+  }
+  
+  .psearch-btnpb:hover {
+    background-color: #d95b43; /* Darker orange on hover */
+  }
+  
+  /**********************************************/
+  
+  .paddbutton:hover {
+    background-color: #d95b43; /* Darker orange on hover */
+  }
+  .pprpt-btn:hover {
+    background-color: rgb(152, 136, 152); /* Darker orange on hover */
+  }
+  
+  
+  .ppayment-r-table table{
+    width: 100%;
+    margin-top: 30px; 
+    border-collapse: collapse;
+  
+  }
+
+  td{
+    padding-left: 5px;
+  }
+  
+  .ppayment-r-table .des{
+    padding: 5px;
+    text-align: left;
+    max-width: 250px;
+  }
+  
+  .iddd{
+    font-size: 12px;
+   
+  }
+  
+  .psearch-barpb{
+    margin-left: 00px;
+  }
+  
+  
+  .pbutton-container {
+    display: flex; /* Display buttons in a row */
+    align-items: center;
+    padding: 5px; /* Align buttons vertically */
+  }
+  .orderpaymentsbtn{
+    margin-top: 30px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    background-color: #ffe8e4;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .orderpaymentsbtn:hover{
+    background-color: #d95b43; /* Darker orange on hover */
+    color: white;
+  }
+  @media print {
+    .print{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    }

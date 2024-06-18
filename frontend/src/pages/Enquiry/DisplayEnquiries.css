@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.enquiries-container {
+    margin-top: 20px;
+}
+
+.enquiries-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.enquiries-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.enquiries-table th, .enquiries-table td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Example border color */
+    font-family: 'Outfit', sans-serif;
+    border-radius: 2px;
+
+}
+
+.enquiry-details-link {
+    color: blue; /* Example link color */
+    text-decoration: none;
+}
+
+.enquiry-details-link:hover {
+    text-decoration: underline;
+}

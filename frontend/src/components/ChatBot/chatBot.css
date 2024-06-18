@@ -1,0 +1,28 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.bot:hover{
+    opacity: 0.7;
+
+}
+
+.chat-widget {
+    position: fixed;
+    bottom: -500px; /* Start off-screen */
+    right: 20px;
+    width: 350px;
+    height: 430px;
+    transition: bottom 0.5s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chat-widget.open {
+    bottom: 60px; /* Adjust as needed */
+}
+

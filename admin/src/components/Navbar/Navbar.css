@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo{
+    width: max(10%, 80px);
+}
+
+.navbar .profile{
+    width: 40px;
+}
+.log-out-but-ad{
+    width: 100px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+}
+.log-out-but-ad:hover{
+    background-color: rgb(247, 81, 52);
+
+}

@@ -1,0 +1,354 @@
+/* employee details*/
+
+.employee-summary-container {
+  background-color: #f0f0f0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.employee-summary-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-summary-heading {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 5px;
+  width: 400px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.user-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.user-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  margin: 5px 0;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  margin-left: 20px;
+}
+
+
+
+/* add employee */
+.add-user-container {
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+   
+    
+  }
+  .add-user-content{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left; 
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    width: calc(100% - 30px); 
+    padding: 15px; 
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .error-text {
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .add-user-form {
+      width: 90%;
+    }
+  }
+  
+
+
+
+/* Update user */
+.update-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .update-user-content {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .form-control {
+    width: calc(100% - 30px);
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+  }
+  
+  .error-text {
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .update-user-content {
+      width: 90%;
+    }
+  }
+  
+
+
+
+ 
+  /* SalaryU.css */
+
+.salaryu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.salaryu-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.salaryu-heading {
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+.add-salary-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 5px;
+  width: 400px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  min-width: 100px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+
+.salary-table-container {
+  max-height: 40vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.salary-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.salary-table th, .salary-table td {
+  padding: 8px; 
+  font-size: 14px; 
+}
+
+.action-buttons {
+  padding: 8px; 
+}
+
+.download-report-btn {
+  padding: 10px 20px;
+  background-color: #FFA500;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+
+.deletesalbtn{
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 3px;
+}

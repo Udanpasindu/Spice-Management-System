@@ -1,0 +1,112 @@
+/* PromoCode.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add-promocode {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.add-promocode form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-promo-code, .discount-price {
+    margin-bottom: 1rem;
+}
+
+.add-promo-code p, .discount-price p {
+    margin: 0 0 0.5rem;
+    font-weight: bold;
+}
+
+.add-promo-code input, .discount-price input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-promo-code .refresh-btn, .btn-container .add-btn {
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem; 
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.add-btn{
+    margin-left: 14px;
+}
+
+.add-promo-code .refresh-btn:hover, .btn-container .add-btn:hover {
+    background-color: #ff3232;
+}
+
+.promo-list {
+    margin-top: 2rem;
+}
+
+.promo-list h2 {
+    text-align: center;
+    color: #333;
+}
+
+.promo-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.promo-list table, .promo-list th, .promo-list td {
+    border: 1px solid #ddd;
+}
+
+.promo-list th, .promo-list td {
+    text-align: center; 
+    padding: 0.75rem;
+}
+
+.promo-list th {
+    background-color: #f2f2f2;
+}
+
+.promo-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.promo-list .copy-btn, .promo-list .delete-btn {
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.promo-list .copy-btn:hover, .promo-list .delete-btn:hover {
+    background-color: #ff3232;
+}
+
+.promo-list .delete-btn {
+    background-color: red; 
+}
+
+.promo-list .delete-btn:hover {
+    background-color: darkred; 
+}

@@ -1,0 +1,33 @@
+.search, .report {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.search {
+    background-color: #2196ef; 
+    color: white;
+    width: 90px;
+}
+
+.report {
+    background-color: #015667; 
+    color: white;
+}
+.sBox{
+    height: 30px;
+}
+
+@media print {
+    button {
+      display: none;
+    }
+  }
+  

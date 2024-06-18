@@ -1,0 +1,193 @@
+.list-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10px 50px;
+  margin: 30px;
+  border-radius: 6px;
+  background: white;
+}
+
+.listproduct-format-main {
+  display: grid;
+  grid-template-columns:2fr 2fr 2fr 1fr 4fr 1fr 0.5fr 0.2fr;
+  gap: 5px;
+  width: 100%;
+  padding: 20px 0px;
+  color: #454545;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+
+
+.listproduct-format-main p {
+  text-align: left;
+}
+
+
+
+.listproduct-allproducts {
+  max-height: 500px; /* Adjust the height as needed */
+  overflow-y: auto; 
+}
+
+.listproduct-allproducts hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+
+.listproduct-format {
+  
+  
+  font-weight: 500;
+  
+}
+
+.listproduct-product-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.listproduct-remove-icon {
+  
+  cursor: pointer;
+}
+
+.listproduct-edit-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.listproduct-edit-icon:hover,
+.listproduct-remove-icon:hover {
+  filter: brightness(0.2);
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  
+  
+}
+.search-icon,
+.searchbar input:hover{
+  filter: brightness(0.8);
+}
+.searchbar input[type="text"] {
+  padding: 8px;
+  width: calc(100% - 40px); /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: "Outfit";
+}
+.searchbar input[type="text"]:focus {
+  border-color: #0f0d0b; /* Focus color, you can change this as needed */
+  outline: none;
+  border: 3px solid #ccc;
+}
+.searchbar .search-icon {
+  width: 30px; /* Adjust size as needed */
+  margin-left: -35px; /* Adjust margin as needed */
+  cursor: pointer;
+}
+
+.file-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 1000px;
+}
+
+.content{
+margin-top: 27px;
+margin-bottom: 10px;
+margin-left: 1000px;
+position: absolute;
+display: flex;
+opacity: 0;
+transition: 0.6s;
+font-size: 14px;
+color: #0000005c;
+}
+
+.content:hover{
+opacity: 1;
+cursor: pointer;
+}
+.file-icon:hover {
+  opacity: 0.8;
+  
+}
+
+/* List.css */
+
+.rep {
+font-size: 12px;
+margin-top: 20px;
+margin-bottom: 10px;
+color: #333;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase; /* Converts text to uppercase */
+letter-spacing: 1px; /* Adds letter spacing */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle text shadow */
+background-color: #f2f2f2; /* Sets background color */
+padding: 10px 0; /* Adds padding */
+border-radius: 5px; /* Adds rounded corners */
+cursor: pointer;
+}
+
+.confirmation-message {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: rgba(239, 79, 30, 0.8); /* Transparent white background */
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+z-index: 1000;
+}
+
+.confirmation-message h2 {
+margin-bottom: 10px;
+font-size: 18px;
+color: rgb(234, 224, 224);
+}
+
+.confirmation-message-buttons {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.confirmation-message-buttons button {
+margin: 0 10px;
+padding: 8px 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.confirmation-message-buttons .confirm-button {
+background-color: #4caf50;
+color: #fff;
+}
+
+.confirmation-message-buttons .cancel-button {
+background-color: #f44336;
+color: #fff;
+}

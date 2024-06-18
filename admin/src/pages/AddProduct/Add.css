@@ -1,0 +1,118 @@
+.add-product {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f4eded4a;
+  border: 1px solid #ee5b11;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.add-product h1 {
+  margin-left: 190px;
+  color: #cb5917;
+}
+
+
+.addproduct-itemfield {
+  margin-bottom: 15px;
+}
+
+.addproduct-itemfield p,
+.addproduct-itemfield label {
+  margin-bottom: 5px;
+  color: #e49466;
+}
+.addproduct-itemfieldd label{
+  margin-bottom: 5px;
+  color: #e49466;
+}
+.addproduct-itemfield textarea {
+  width: 100%;
+  padding: 8px;
+  height: 50px;
+ 
+  border: 1px solid #ee5b11;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.addproduct-itemfield select,
+.addproduct-itemfield input[type="text"],
+.addproduct-itemfield input[type="number"],
+.addproduct-itemfield input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ee5b11;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.addproduct-itemfield input[type="text"]:focus ,
+.addproduct-itemfield input[type="number"]:focus,
+.addproduct-itemfield input[type="file"]:focus,
+.addproduct-itemfield textarea:focus,
+.addproduct-itemfield select:focus{
+  border-color: #e96924f0; /* Focus color, you can change this as needed */
+  outline: none;
+  border: 3px solid #e96924f0;
+}
+.addproduct-itemfield select {
+  background-color: #fff;
+  color: #333;
+}
+.name{
+    width: 30px;
+    height: 30px;
+    margin-left: 400px;
+}
+
+.quant{
+  width: 20px;
+  height: 20px;
+  margin-left: 400px;
+}
+.descri{
+
+  width: 20px;
+  height: 20px;
+  margin-left: 540px;
+}
+.cat{
+  width: 24px;
+  height: 24px;
+  margin-left: 400px;
+}
+.pricetag{
+  width: 24px;
+  height: 24px;
+  margin-left: 430px;
+}
+.addproduct-btn button {
+  padding: 10px 20px;
+  background-color: #ff6200d1;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  margin-left: 300px;
+}
+
+.addproduct-btn button:hover {
+  background-color: #dc6a19f5;
+  
+}
+
+.uploaded-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+

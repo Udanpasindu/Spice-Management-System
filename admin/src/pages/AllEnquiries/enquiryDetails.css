@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Outfit', sans-serif;
+    background-color: tomato;
+    /* Blue background color */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+
+}
+
+.cus-Details {
+    color: #333;
+    font-family: 'Outfit', sans-serif;
+    background-color: tomato;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: fit-content;
+    height: auto;
+}
+.head{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Details {
+    color: #333;
+    font-family: 'Outfit', sans-serif;
+    padding: 40px;
+    margin-left: 40px;
+    max-width: auto;
+}
+.des{
+    width: max(50vw, 200px);
+}
+.flex{
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.controls{
+
+ padding: 10px;
+ display: flex;
+ gap: 3px;
+
+
+}
+.controls button{
+    border: none;
+    color: white;
+    background-color: tomato;
+    width: max(10vw, 70px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    
+    
+}
+.button-link {
+    border: none;
+    color: white;
+    background-color: rgb(133, 133, 133);
+    width: max(15vw, 200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+  }
